@@ -47,6 +47,7 @@ Some commands (e.g., %pip install, !wget) may not work in local Jupyter environm
 ### SVR Actual vs Predicted
 ![SVR vs Actual](images/svr_vs_actual.png)
 
+
 ## 📂 Folder Structure
 logp-tpsa-analysis/
 ├── Lipophilicity.csv # Input dataset
