@@ -1,11 +1,9 @@
 # LogP and TPSA Correlation Analysis
 
 ## 🔍 Overview
-이 프로젝트는 Lipophilicity 데이터셋을 사용해 **분자 지용성(LogP)** 과 **토폴로지컬 극성 표면적(TPSA)** 간의 상관관계를 분석합니다.
 This project analyzes correlation between **molecules' fat solubility (LogP)** and **Topological Polar Surface Area (TPSA)** using Lipophilicity.csv dataset.
 
 **hypothesis:**  
-"더 높은 TPSA를 가진 분자는 일반적으로 더 낮은 LogP 값을 가지며 (즉, 더 극성 → 덜 지용성), 두 변수 사이에 반비례 상관관계가 있다."
 "Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating an inverse relationship between the two variables."
 
 ## 📁 Data source
