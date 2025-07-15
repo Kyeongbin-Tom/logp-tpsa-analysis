@@ -25,3 +25,22 @@ You can run the notebook via:
 ```bash
 pip install pandas seaborn matplotlib
 jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
+
+## 📂 Folder Structure
+logp-tpsa-analysis/
+├── Lipophilicity.csv # Input dataset
+├── LogP_TPSA_Analysis.ipynb # Main analysis notebook
+└── README.md # Project overview
+
+
+## 📌 License
+
+The dataset (Lipophilicity.csv) is distributed under the [CC0 1.0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).  
+This project is for educational and non-commercial purposes only.
+
+
+## 📝 Citation
+
+Ertl, P., Rohde, B., & Selzer, P. (2000).  
+*Topological polar surface area: A useful descriptor in 2D-QSAR*.  
+Journal of Medicinal Chemistry, 43(20), 3714–3717.
