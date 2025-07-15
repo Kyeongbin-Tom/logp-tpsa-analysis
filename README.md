@@ -39,6 +39,14 @@ You can run the notebook via:
 ⚠️ This notebook is designed for Google Colab.
 Some commands (e.g., %pip install, !wget) may not work in local Jupyter environments without modification.
 
+## 📈 Visualizations
+
+### TPSA vs LogP
+![TPSA vs LogP](images/tpsa_vs_logp.png)
+
+### SVR Actual vs Predicted
+![SVR vs Actual](images/svr_vs_actual.png)
+
 ## 📂 Folder Structure
 logp-tpsa-analysis/
 ├── Lipophilicity.csv # Input dataset
