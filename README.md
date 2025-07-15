@@ -20,7 +20,7 @@ This project analyzes correlation between **molecules' fat solubility (LogP)** a
 
 - ## 🧪 How to Run
 You can run the notebook via:
-- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/doas1min/logp-tpsa-analysis/blob/main/notebooks/LogP_TPSA_Analysis.ipynb)
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kyeongbin-Tom/logp-tpsa-analysis/blob/main/LogP_TPSA_Analysis.ipynb)
 - Or clone this repo and run locally:
 ```bash
 pip install pandas seaborn matplotlib
