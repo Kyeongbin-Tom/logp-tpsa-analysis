@@ -3,10 +3,16 @@
 ## 🔍 Overview
 This project analyzes the correlation between **molecules' fat solubility (LogP)** and **Topological Polar Surface Area (TPSA)** using the `Lipophilicity.csv` dataset.
 
-**Hypothesis:**  
-"Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating an inverse relationship between the two variables."
+## Objective
+To validate the chemical hypothesis that:
+> Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating an inverse relationship between the two variables.
 
----
+## Methods
+
+Data processing using pandas
+Visualization with matplotlib
+Correlation analysis by python
+Machine learning: SVR (Support Vector Regression) to predict the relationship between LogP and TPSA
 
 ## 📁 Data Source
 - **Lipophilicity.csv**: From the CAIP GitHub repository (CC0 1.0)  
@@ -54,6 +60,9 @@ logp-tpsa-analysis/
 ├── LogP_TPSA_Analysis.ipynb # Main analysis notebook
 └── README.md # Project overview
 
+## Conclusion
+
+## Future Work
 
 ## 📌 License
 
