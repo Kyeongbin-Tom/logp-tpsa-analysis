@@ -1,11 +1,11 @@
 # LogP and TPSA Correlation Analysis
 
 ## 🔍 Overview
-This project analyzes the correlation between **molecules' fat solubility (LogP)** and **Topological Polar Surface Area (TPSA)** using the `Lipophilicity.csv` dataset.
+This project analyzes the correlation between **molecular lipophilicity (LogP)** and **Topological Polar Surface Area (TPSA)** using the `Lipophilicity.csv` dataset.
 
 ## 🎯 Objective
 To validate the chemical hypothesis that:
-> Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating an inverse relationship between the two variables.
+> Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating a negative correlation between the two variables.
 
 ## 🧪 Methods
 - Data processing using pandas
@@ -25,7 +25,7 @@ To validate the chemical hypothesis that:
 
 ## 📊 Key Findings
 - Pearson correlation coefficient between TPSA and LogP: **-0.14**
-- Visualization shows a clear inverse relationship.
+- Scatter plots reveal a slight inverse trend.
 - Supports the hypothesis that higher polarity (TPSA) reduces lipophilicity (LogP).
 
 ---
@@ -60,7 +60,7 @@ logp-tpsa-analysis/
 └── README.md # Project overview
 
 ## 🤔 Conclusion
-The hypothesis was supported. TPSA is a significant predictor for LogP. The corrleationship isn't high as I expected, the ML effectively shows the relationship.
+The hypothesis was supported. TPSA is a significant predictor for LogP. The correlation was lower than initially expected, Machine learning models effectively demonstrated the relationship.
 
 ## 💡 Future Work
 - Try deeplearning models for higher accuracy.
