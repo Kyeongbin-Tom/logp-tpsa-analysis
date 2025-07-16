@@ -8,10 +8,10 @@ To validate the chemical hypothesis that:
 > Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating an inverse relationship between the two variables.
 
 ## 🧪 Methods
-Data processing using pandas
-Visualization with matplotlib
-Correlation analysis by python
-Machine learning: SVR (Support Vector Regression) to predict the relationship between LogP and TPSA
+- Data processing using pandas
+- Visualization with matplotlib
+- Correlation analysis by python
+- Machine learning: SVR (Support Vector Regression) to predict the relationship between LogP and TPSA
 
 ## 📁 Data Source
 - **Lipophilicity.csv**: From the CAIP GitHub repository (CC0 1.0)  
@@ -63,7 +63,8 @@ logp-tpsa-analysis/
 The hypothesis was supported. TPSA is a significant predictor for LogP. The corrleationship isn't high as I expected, the ML effectively shows the relationship.
 
 ## 💡 Future Work
-
+- Try deeplearning models for higher accuracy.
+- Find other elements which has more relative with LogP
 
 ## 📌 License
 
