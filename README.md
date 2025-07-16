@@ -60,7 +60,7 @@ logp-tpsa-analysis/
 └── README.md # Project overview
 
 ## 🤔 Conclusion
-The hypothesis was supported. TPSA is a significant predictor for LogP. The correlation was lower than initially expected, Machine learning models effectively demonstrated the relationship.
+The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, Machine learning models effectively demonstrated the relationship.
 
 ## 💡 Future Work
 - Try deeplearning models for higher accuracy.
