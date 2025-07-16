@@ -10,13 +10,13 @@ To validate the chemical hypothesis that:
 ## 🧠 Background
 Lipophilicity (LogP) is a measure of how well a compound dissolves in fat relative to water. Topological Polar Surface Area (TPSA) quantifies the polar regions in the molecule, which are capable of forming hydrogen bonds. TPSA reflects polarity due to its relation to hydrogen bonding capacity. 
 
-In general, highly polar molecules are more hydrophilic and less likely to dissolve in lipid environment.
-This leads to the hypothesis that as TPSA increases, LogP is likely to decrease - indicating a negative relationship.
+In general, highly polar molecules are more hydrophilic and less likely to dissolve in lipid environments.
+This leads to the hypothesis that as TPSA increases, LogP tends to decrease - indicating a negative relationship.
 
 ## 🧪 Methods
 - Data processing using pandas
 - Visualization with matplotlib
-- Correlation analysis by python
+- Correlation analysis using python
 - Machine learning: SVR (Support Vector Regression) to predict the relationship between LogP and TPSA
 
 ## 📁 Data Source
@@ -66,11 +66,11 @@ logp-tpsa-analysis/
 └── README.md # Project overview
 
 ## 🤔 Conclusion
-The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, Machine learning models effectively demonstrated the relationship.
+The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, but Machine learning models effectively demonstrated the relationship.
 
 ## 💡 Future Work
 - Try deeplearning models for higher accuracy.
-- Find other elements which has more relative with LogP
+- Identify other molecular descriptors that correlate more strongly with LogP
 
 ## 📌 License
 
