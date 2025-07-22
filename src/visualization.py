@@ -1,14 +1,14 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def plot_tpsa_vs_logp(df, tpsa_col='TPSA', logp_col='exp', save_path=None):
+def plot_tpsa_vs_logp(df, tpsa_col='TPSA', logp_col='Lipophilicity', save_path=None):
     """
     Plot scatter plot of TPSA vs LogP.
     
     Parameters:
     - df: DataFrame with TPSA and LogP values
     - tpsa_col: Column name for TPSA (default: 'TPSA')
-    - logp_col: Column name for LogP (default: 'exp')
+    - logp_col: Column name for LogP (default: 'Lipophilicity')
     - save_path: If specified, saves the plot to the given path
     """
     plt.figure(figsize=(6, 4))
