@@ -3,8 +3,8 @@
 ## 🔍 Overview
 This project analyzes the correlation between **molecular lipophilicity (LogP)** and **Topological Polar Surface Area (TPSA)** using the `Lipophilicity.csv` dataset.
 
-> 🧑‍🔬 This project was conducted as an independent research initiative by a first-year chemical engineering student.  
-> It demonstrates the use of cheminformatics and machine learning to explore and validate a chemistry-based hypothesis through computational analysis.
+> 🧑‍🔬 This project was conducted as an independently by a first-year chemical engineering student  
+> It demonstrates the use of cheminformatics and machine learning to explore and validate a chemical hypothesis through a computational analysis.
 
 ## 🎯 Objective
 To validate the chemical hypothesis that:
