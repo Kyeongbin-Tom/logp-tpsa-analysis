@@ -3,6 +3,9 @@
 ## 🔍 Overview
 This project analyzes the correlation between **molecular lipophilicity (LogP)** and **Topological Polar Surface Area (TPSA)** using the `Lipophilicity.csv` dataset.
 
+> 🧑‍🔬 This project was conducted as an independent research initiative by a first-year chemical engineering student.  
+> It demonstrates the use of cheminformatics and machine learning to explore and validate a chemistry-based hypothesis through computational analysis.
+
 ## 🎯 Objective
 To validate the chemical hypothesis that:
 > Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating a negative correlation between the two variables.
