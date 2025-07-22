@@ -10,6 +10,16 @@ This project analyzes the correlation between **molecular lipophilicity (LogP)**
 To validate the chemical hypothesis that:
 > Molecules with higher TPSA values tend to have lower LogP values (i.e., more polar → less liposoluble), indicating a negative correlation between the two variables.
 
+## 🙋 Feedback Wanted!
+I'm actively improving this project and would love your feedback on:
+
+- Code structure and readability  
+- Analysis and visualization  
+- Feature engineering ideas  
+- Model evaluation and interpretation  
+
+Feel free to open an [Issue](https://github.com/Kyeongbin-Tom/logp-tpsa-analysis/issues) or start a [Discussion](https://github.com/Kyeongbin-Tom/logp-tpsa-analysis/discussions) to share your thoughts!
+
 ## 🧭 Motivation
 As a first-year chemical engineering student, I became curious about how TPSA (a measure of polarity) influences other molecular properties.  
 I hypothesized that lipophilicity (LogP) would be one of the most relevant factors, since it reflects a molecule’s solubility balance between water (polar) and oil (nonpolar) phases.  
