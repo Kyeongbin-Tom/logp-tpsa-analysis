@@ -83,10 +83,18 @@ Some commands (e.g., %pip install, !wget) may not work in local Jupyter environm
 
 
 ## 📂 Folder Structure
+
 logp-tpsa-analysis/
-├── Lipophilicity.csv # Input dataset
-├── LogP_TPSA_Analysis.ipynb # Main analysis notebook
-└── README.md # Project overview
+├── Lipophilicity.csv                # Input dataset (LogP and SMILES)
+├── notebooks/
+│   └── LogP_TPSA_Analysis.ipynb     # Main Jupyter notebook for analysis
+├── src/
+│   ├── descriptors.py               # Module for calculating molecular descriptors using RDKit
+│   └── visualization.py            # Module for visualizing TPSA and LogP distributions
+├── images/                          # Folder for saving generated plots
+├── requirements.txt                 # List of required Python packages
+└── README.md                        # Project overview and documentation
+
 
 ## 🤔 Conclusion
 The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, but Machine learning models effectively demonstrated the relationship.
