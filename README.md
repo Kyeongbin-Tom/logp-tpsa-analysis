@@ -45,7 +45,12 @@ This leads to the hypothesis that as TPSA increases, LogP tends to decrease - in
   *Topological polar surface area: A useful descriptor in 2D‑QSAR*.  
   Journal of Medicinal Chemistry, 43(20), 3714‑3717.
 
----
+## ⚙️ Installation
+
+To install the required dependencies:
+
+```bash
+pip install -r requirements.txt
 
 ## 📊 Key Findings
 - Pearson correlation coefficient between TPSA and LogP: **-0.14**
