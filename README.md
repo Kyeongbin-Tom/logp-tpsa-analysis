@@ -110,9 +110,9 @@ The hypothesis was supported: TPSA appears to negatively correlate with LogP. Th
 
 ## 💡 Future Work
 - Try deeplearning models for higher accuracy.
-- Identify other molecular descriptors that correlate more strongly with LogP
-- Utilize SHAP or permutation
-- Test models beyond SVR, such as XGBoost
+- Identify additional molecular descriptors that correlate strongly with LogP.
+- Utilize SHAP or permutation for better better interpretation.
+- Explore other algorithms beyond SVR, such as XGBoost
 - Learn and apply Organic Chemistry concepts to deepen the analysis of relationship between LogP and various molecular descriptors.
 
 ## 📌 License
