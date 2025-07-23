@@ -2,22 +2,17 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 def smiles_to_mol(smiles):
-    """
-    Convert a SMILES string to an RDKit Mol object.
-    """
     return Chem.MolFromSmiles(smiles)
 
-def calculate_tpsa(mol):
-    """
-    Calculate Topological Polar Surface Area (TPSA) from an RDKit Mol object.
-    """
-    return Descriptors.TPSA(mol)
-
-def smiles_to_tpsa(smiles):
-    """
-    Convert SMILES to TPSA in one step.
-    """
+def smiles_to_descriptors(smiles):
     mol = smiles_to_mol(smiles)
     if mol is None:
         return None
-    return calculate_tpsa(mol)
+
+    return {
+        "TPSA": Descriptors.TPSA(mol),
+        "MolWt": Descriptors.MolWt(mol),
+        "NumHAcceptors": Descriptors.NumHAcceptors(mol),
+        "NumHDonors": Descriptors.NumHDonors(mol),
+        "NumRotatableBonds": Descriptors.NumRotatableBonds(mol),
+    }
