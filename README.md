@@ -95,7 +95,13 @@ logp-tpsa-analysis/
 ├── requirements.txt                 # List of required Python packages
 └── README.md                        # Project overview and documentation
 
+## 🧰 Python Modules
 
+### 🔬 `src/descriptors.py`
+- 
+
+### 📊 `src/visualization.py`
+- 
 ## 🤔 Conclusion
 The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, but Machine learning models effectively demonstrated the relationship.
 
