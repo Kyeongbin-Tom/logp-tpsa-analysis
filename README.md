@@ -52,6 +52,7 @@ To install the required dependencies:
 ```bash
 pip install -r requirements.txt
 
+
 ## 📊 Key Findings
 - Pearson correlation coefficient between TPSA and LogP: **-0.14**
 - Scatter plots reveal a slight inverse trend.
@@ -98,10 +99,16 @@ logp-tpsa-analysis/
 ## 🧰 Python Modules
 
 ### 🔬 `src/descriptors.py`
-- 
+- 'smiles_to_mol(smiles)': Converts a SMILES string into an RDKit Mol object.
+- 'smiles_to_descriptors(smiles)': Calculates molecular descriptors including TPSA, molecular weight, number of hydrogen bond acceptors/donors, and number of rotatable bonds.  
+  -> Utilizes RDKit's 'Descriptors' module.
 
 ### 📊 `src/visualization.py`
-- 
+- 'plot_tpsa_vs_logp': Plots the scatter plot of between TPSA vs LogP.
+- 'plot_distribution': Plots the distribution of specified variables using histplot and KDE curve.
+  -> Uses 'matplotlib' and 'seaborn'.
+
+
 ## 🤔 Conclusion
 The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, but Machine learning models effectively demonstrated the relationship.
 
