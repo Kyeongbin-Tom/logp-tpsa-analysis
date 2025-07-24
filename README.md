@@ -78,19 +78,21 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 ### SVR Actual vs Predicted
 ![SVR vs Actual](images/svr_vs_actual.png)
 
-
 ## 📂 Folder Structure
 
 logp-tpsa-analysis/
-├── Lipophilicity.csv                # Input dataset (LogP and SMILES)
+├── data/
+│   └── Lipophilicity.csv            # Input dataset (LogP and SMILES)
+├── images/
+│   ├── svr_vs_actual.png            # SVR predicted vs actual LogP values
+│   └── tpsa_vs_logp.png             # TPSA vs LogP scatter plot
 ├── notebooks/
-│   └── LogP_TPSA_Analysis.ipynb     # Main Jupyter notebook for analysis
+│   └── LogP_TPSA_Analysis.ipynb     # Main Jupyter notebook for correlation and modeling
 ├── src/
-│   ├── descriptors.py               # Module for calculating molecular descriptors using RDKit
-│   └── visualization.py            # Module for visualizing TPSA and LogP distributions
-├── images/                          # Folder for saving generated plots
-├── requirements.txt                 # List of required Python packages
-└── README.md                        # Project overview and documentation
+│   ├── descriptors.py               # RDKit-based molecular descriptor calculator
+│   └── visualization.py             # Plotting functions for LogP and TPSA
+├── requirements.txt                 # Required Python packages
+└── README.md                        # Project overview and instructions
 
 ## 🧰 Python Modules
 
