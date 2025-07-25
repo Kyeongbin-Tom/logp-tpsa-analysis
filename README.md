@@ -89,7 +89,7 @@ logp-tpsa-analysis/
 ├── data/
 │   └── Lipophilicity.csv            # Input dataset (LogP and SMILES)
 ├── images/
-│   ├── svr_vs_actual.png            # SVR predicted vs actual LogP values
+│   ├── parity_plot_all_models.png   # SVR predicted vs actual LogP values
 │   └── tpsa_vs_logp.png             # TPSA vs LogP scatter plot
 ├── notebooks/
 │   └── LogP_TPSA_Analysis.ipynb     # Main Jupyter notebook for correlation and modeling
