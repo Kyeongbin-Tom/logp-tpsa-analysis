@@ -73,10 +73,14 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 ## 📈 Visualizations
 
 ### TPSA vs LogP
+Scatter plot showing the potential inverse relationship between TPSA and LogP.
+
 ![TPSA vs LogP](images/tpsa_vs_logp.png)
 
-### SVR Actual vs Predicted
-![SVR vs Actual](images/svr_vs_actual.png)
+### Parity Plot: Actual vs Predicted LogP (All Models)
+Side-by-side comparison of actual vs predicted LogP values for all machine learning models (Linear Regression, SVR, Random Forest).
+
+![parity_plot](images/parity_plot_all_models.png)
 
 ## 📂 Folder Structure
 
