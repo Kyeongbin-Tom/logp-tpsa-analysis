@@ -83,6 +83,7 @@ This plot compares actual and predicted LogP values across three models:
 
 ![Parity Plot](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/parity_plot_all_models.png)
 
+
 ## 📂 Folder Structure
 
 logp-tpsa-analysis/
