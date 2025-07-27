@@ -62,7 +62,6 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 
 ⚠️ Some cells use Colab-specific commands (e.g., %pip install, !wget) and may require modification when running locally.
 
-
 ## 📊 Key Findings
 - Pearson correlation coefficient between TPSA and LogP: **-0.14**
 - Scatter plots shows a weak inverse trend.
