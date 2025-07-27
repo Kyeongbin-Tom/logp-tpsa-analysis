@@ -68,8 +68,6 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 - Scatter plots shows a weak inverse trend.
 - Supports the hypothesis that higher polarity (TPSA) reduces lipophilicity (LogP).
 
----
-
 ## 📈 Visualizations
 
 ### TPSA vs LogP
