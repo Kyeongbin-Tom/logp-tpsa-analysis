@@ -59,6 +59,7 @@ git clone https://github.com/Kyeongbin-Tom/logp-tpsa-analysis.git
 cd logp-tpsa-analysis
 pip install -r requirements.txt
 jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
+```
 
 ⚠️ Some cells use Colab-specific commands (e.g., %pip install, !wget) and may require modification when running locally.
 
