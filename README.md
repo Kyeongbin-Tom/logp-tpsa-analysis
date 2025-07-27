@@ -1,3 +1,12 @@
+### TPSA vs LogP
+
+![TPSA vs LogP](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/tpsa_vs_logp.png)
+
+### Parity Plot
+
+![Parity Plot](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/parity_plot_all_models.png)
+
+
 # LogP and TPSA Correlation Analysis
 
 ## 🔍 Overview
