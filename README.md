@@ -71,10 +71,13 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 ## 📈 Visualizations
 
 ### TPSA vs LogP
+This scatter plot shows the relationship between TPSA (Topological Polar Surface Area) and LogP (lipophilicity), suggesting a weak negative correlation.
 
 ![TPSA vs LogP](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/tpsa_vs_logp.png)
 
 ### Parity Plot
+This plot compares actual and predicted LogP values across three models:  
+**Linear Regression**, **SVR**, and **Random Forest Regressor**.
 
 ![Parity Plot](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/parity_plot_all_models.png)
 
