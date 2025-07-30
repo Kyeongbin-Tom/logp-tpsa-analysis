@@ -36,7 +36,7 @@ This leads to the hypothesis that as TPSA increases, LogP tends to decrease - in
 - Data processing using pandas
 - Visualization with matplotlib
 - Correlation analysis using Python
-- Machine learning: SVR (Support Vector Regression) to predict the relationship between LogP and TPSA
+- Machine learning: Linear Regression, SVR (Support Vector Regression), and Random Forest Regressor to predict the relationship between LogP and TPSA
 
 ## 📁 Data Source
 - **Lipophilicity.csv**: From the CAIP GitHub repository (CC0 1.0)  
@@ -65,9 +65,12 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 
 ## 📊 Key Findings
 - Pearson correlation coefficient between TPSA and LogP: **-0.14**
-- Scatter plots shows a weak inverse trend.
+- Scatter plot shows a weak inverse trend.
 - Supports the hypothesis that higher polarity (TPSA) reduces lipophilicity (LogP).
 
+## 🧠 Model Interpretability (SHAP Analysis)
+
+ 
 ## 📈 Visualizations
 
 ### TPSA vs LogP
