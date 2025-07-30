@@ -36,7 +36,7 @@ This leads to the hypothesis that as TPSA increases, LogP tends to decrease - in
 - Data processing using pandas
 - Visualization with matplotlib
 - Correlation analysis using Python
-- Machine learning: Linear Regression, SVR (Support Vector Regression), and Random Forest Regressor to predict the relationship between LogP and TPSA
+- Machine learning: Linear Regression, SVR (Support Vector Regression), and Random Forest Regressor to model the relationship between LogP and TPSA
 
 ## 📁 Data Source
 - **Lipophilicity.csv**: From the CAIP GitHub repository (CC0 1.0)  
@@ -48,8 +48,8 @@ This leads to the hypothesis that as TPSA increases, LogP tends to decrease - in
 
 ## ⚙️ Setup and Execution
 
-### Option 1: Run on Google Colab
-
+### Option 1: Run on Google Colab  
+You can explore the full notebook directly in your browser:
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Kyeongbin-Tom/logp-tpsa-analysis/blob/main/LogP_TPSA_Analysis.ipynb)
 
 ### Option 2: Run locally
@@ -65,7 +65,7 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 
 ## 📊 Key Findings
 - Pearson correlation coefficient between TPSA and LogP: **-0.14**
-- Scatter plot shows a weak inverse trend.
+- The scatter plot reveals a weak inverse trend between TPSA and LogP.
 - Supports the hypothesis that higher polarity (TPSA) reduces lipophilicity (LogP).
 
 ## 🧠 Model Interpretability (SHAP Analysis)
@@ -77,7 +77,7 @@ It allows us to quantify feature importance and determine whether a feature incr
 ### 🔍 Key Insights
 - **TPSA** shows a strong negative impact on LogP, supporting our original hypothesis.
 - **MolWt** and **AromaticProportion** also play important roles in the prediction.
-- SHAP enhances model transparency and helps bridge machine learning with chemical interpretability.
+- SHAP enhances model transparency and bridges machine learning with chemical interpretability.
 
 ## 📈 Visualizations
 
@@ -128,12 +128,12 @@ logp-tpsa-analysis/
 
 
 ## 🤔 Conclusion
-The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, but machine learning models still helped demonstrate the relationship.
+The hypothesis was supported: TPSA appears to negatively correlate with LogP. The correlation was lower than initially expected, but machine learning models still helped capture the underlying trend.
 
 ## 💡 Future Work
 - Try deeplearning models for higher accuracy.
 - Identify additional molecular descriptors that correlate strongly with LogP.
-- Utilize SHAP or permutation for better better interpretation.
+- Utilize SHAP or permutation for better interpretation.
 - Explore other algorithms beyond SVR, such as XGBoost
 - Learn and apply Organic Chemistry concepts to deepen the analysis of relationship between LogP and various molecular descriptors.
 
@@ -146,6 +146,7 @@ This project is for educational and non-commercial purposes only.
 
 ## 📝 Citation
 
-Ertl, P., Rohde, B., & Selzer, P. (2000).
-Topological polar surface area: A useful descriptor in 2D-QSAR.
-Journal of Medicinal Chemistry, 43(20), 3714–3717.
+Ertl, P., Rohde, B., & Selzer, P. (2000).  
+*Topological polar surface area: A useful descriptor in 2D-QSAR*.  
+**Journal of Medicinal Chemistry**, 43(20), 3714–3717.  
+DOI: [10.1021/jm000942e](https://doi.org/10.1021/jm000942e)
