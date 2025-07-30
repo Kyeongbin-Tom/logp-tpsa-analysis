@@ -81,21 +81,27 @@ This plot compares actual and predicted LogP values across three models:
 
 ![Parity Plot](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/parity_plot_all_models.png)
 
+### SHAP Summary Plot
+The SHAP summary plot illustrates the impact of each feature on the predicted LogP values, using the Random Forest model.
+
+![SHAP Summary Plot](https://raw.githubusercontent.com/Kyeongbin-Tom/logp-tpsa-analysis/main/images/shap_summary_plot.png)
+
 ## 📂 Folder Structure
 
 logp-tpsa-analysis/
 ├── data/
-│   └── Lipophilicity.csv            # Input dataset (LogP and SMILES)
+│   └── Lipophilicity.csv              # Input dataset (LogP and SMILES)
 ├── images/
-│   ├── parity_plot_all_models.png   # Parity plot: Actual vs Predicted LogP (Linear Regression, SVR, Random Forest)
-│   └── tpsa_vs_logp.png             # TPSA vs LogP scatter plot
+│   ├── parity_plot_all_models.png     # Parity plot: Actual vs Predicted LogP (Linear Regression, SVR, Random Forest)
+│   ├── shap_summary_plot.png          # SHAP summary plot: Feature impact on LogP prediction
+│   └── tpsa_vs_logp.png               # TPSA vs LogP scatter plot
 ├── notebooks/
-│   └── LogP_TPSA_Analysis.ipynb     # Main Jupyter notebook for correlation and modeling
+│   └── LogP_TPSA_Analysis.ipynb       # Main Jupyter notebook for correlation and modeling
 ├── src/
-│   ├── descriptors.py               # RDKit-based molecular descriptor calculator
-│   └── visualization.py             # Plotting functions for LogP and TPSA
-├── requirements.txt                 # Required Python packages
-└── README.md                        # Project overview and instructions
+│   ├── descriptors.py                 # RDKit-based molecular descriptor calculator
+│   └── visualization.py               # Plotting functions for LogP and TPSA
+├── requirements.txt                   # Required Python packages
+└── README.md                          # Project overview and instructions
 
 ## 🧰 Python Modules
 
