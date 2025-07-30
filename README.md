@@ -69,8 +69,16 @@ jupyter notebook notebooks/LogP_TPSA_Analysis.ipynb
 - Supports the hypothesis that higher polarity (TPSA) reduces lipophilicity (LogP).
 
 ## 🧠 Model Interpretability (SHAP Analysis)
+To better understand how the Random Forest model predicts LogP values, we applied **SHAP (SHapley Additive exPlanations)**.
 
- 
+The SHAP summary plot illustrates how each molecular descriptor influences the model's predictions.
+It allows us to quantify feature importance and determine whether a feature increases or decreases the predicted LogP.
+
+### 🔍 Key Insights
+- **TPSA** shows a strong negative impact on LogP, supporting our original hypothesis.
+- **MolWt** and **AromaticProportion** also play important roles in the prediction.
+- SHAP enhances model transparency and helps bridge machine learning with chemical interpretability.
+
 ## 📈 Visualizations
 
 ### TPSA vs LogP
