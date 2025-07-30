@@ -5,3 +5,4 @@ seaborn
 rdkit-pypi
 scikit-learn
 ipykernel
+shap
