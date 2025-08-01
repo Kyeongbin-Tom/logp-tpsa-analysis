@@ -139,9 +139,13 @@ The hypothesis was supported: TPSA appears to negatively correlate with LogP. Th
 
 ## 📌 License
 
-The dataset (Lipophilicity.csv) is distributed under the
-CC0 1.0 Public Domain Dedication.
-This project is for educational and non-commercial purposes only.
+This project is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.  
+You are free to share and adapt the code and analysis for any purpose, including commercial use, as long as proper credit is given.
+
+The dataset (`Lipophilicity.csv`) is distributed under the **CC0 1.0 Public Domain Dedication**.  
+You may use it freely without restriction.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/
 
 
 ## 📝 Citation
